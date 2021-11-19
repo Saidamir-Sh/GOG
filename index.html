@@ -13,7 +13,7 @@
   </head>
   <body>
       <!--  Navigation  -->
-      <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100" style="background-color: rgba(0, 0, 0, .8);">
+      <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100" style="background-color: rgba(0, 0, 0, .8); top: 3px;">
         <div class="container position-relative">
         <a class="navbar-brand" href="#">
             <img src="./gog-assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -87,11 +87,155 @@
           <img src="./gog-assets/carousel3.jpg" alt="Jumbotron" width="100%">
       </div>
 
+      <!--  Highlight   -->
+      <div class="container pt-3" style="border-bottom: 1px solid grey;">
+          <p class="p-0" style="font-size: 1.1rem; font-weight: 600;"><i class="bi bi-pen-fill"></i> Polecane</p>
+      </div>
+
+      <!--  CAROUSEL   -->
+      <div class="container mt-3 mb-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./gog-assets/carousel1.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="container  position-absolute d-flex justify-content-around" style="bottom: 1em;">
+                    <div class="row d-flex flex-column">
+                        <p class="text-white font-weight-bold" ><i class="bi bi-windows mr-2"></i> Juz dostepne</p>
+                        <h1 class="text-white font-weight-bold" style="font-size: 3rem;">Hunter</h1>
+                    </div>
+                    <div class="row d-flex justify-content-between align-items-end" style=" width: 35%;">
+                        <a class="text-white text-center font-weight-bold px-3 py-2" style="background-color: purple; border-radius: 5px; font-size: 1.2rem;">-11%</a>
+                        <a class="text-white" style="font-weight: 600;font-size: 2rem;">42 zl</a>
+                        <a class="text-white  font-weight-bold text-center px-3 py-3" style="background-color: rgb(108, 170, 15); border-radius: 5px;"><i class="bi bi-cart-plus"></i> Dodaj do koszyka</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./gog-assets/carousel2.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="container  position-absolute d-flex justify-content-around" style="bottom: 1em;">
+                    <div class="row d-flex flex-column">
+                        <p class="text-white font-weight-bold" ><i class="bi bi-windows mr-2"></i> Juz dostepne</p>
+                        <h1 class="text-white font-weight-bold" style="font-size: 3rem;">Hunter</h1>
+                    </div>
+                    <div class="row d-flex justify-content-between align-items-end" style=" width: 35%;">
+                        <a class="text-white text-center font-weight-bold px-3 py-2" style="background-color: purple; border-radius: 5px; font-size: 1.2rem;">-11%</a>
+                        <a class="text-white" style="font-weight: 600;font-size: 2rem;">42 zl</a>
+                        <a class="text-white  font-weight-bold text-center px-3 py-3" style="background-color: rgb(108, 170, 15); border-radius: 5px;"><i class="bi bi-cart-plus"></i> Dodaj do koszyka</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./gog-assets/carousel6.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="container  position-absolute d-flex justify-content-around" style="bottom: 1em;">
+                    <div class="row d-flex flex-column">
+                        <p class="text-white font-weight-bold" ><i class="bi bi-windows mr-2"></i> Juz dostepne</p>
+                        <h1 class="text-white font-weight-bold" style="font-size: 3rem;">Hunter</h1>
+                    </div>
+                    <div class="row d-flex justify-content-between align-items-end" style=" width: 35%;">
+                        <a class="text-white text-center font-weight-bold px-3 py-2" style="background-color: purple; border-radius: 5px; font-size: 1.2rem;">-11%</a>
+                        <a class="text-white" style="font-weight: 600;font-size: 2rem;">42 zl</a>
+                        <a class="text-white  font-weight-bold text-center px-3 py-3" style="background-color: rgb(108, 170, 15); border-radius: 5px;"><i class="bi bi-cart-plus"></i> Dodaj do koszyka</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+      </div>
+
+      <!--  CARDS    -->
+      <div class="container mt-3">
+          <div class="row">
+              <div class="col col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./gog-assets/tile (1).jpg" class="card-img-top" alt="Tile 1">
+                    <div class="card-body" style="line-height: 10px;">
+                      <p class="card-text">SoulSaga</p>
+                    </div>
+                    <div class="container d-flex justify-content-between">
+                        <i class="bi bi-windows" style="font-size: .7rem;"></i>
+                        <div>
+                             <a class="px-2 py-1 text-white rounded" style="font-size: .8rem; background-color: purple;">-11%</a>
+                             <a class="text-dark" style="font-size: .8rem;" href="">67.79 zl</a>
+                             <a class="text-white px-3 py-1 rounded" style="font-size: .8rem;background-color: rgb(108, 170, 15);"><i class="bi bi-cart-plus"></i></a>
+                        </div>
+                       
+                      </div>
+                  </div>
+              </div>
+              <div class="col col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./gog-assets/tile (2).jpg" class="card-img-top" alt="Tile 1">
+                    <div class="card-body" style="line-height: 10px;">
+                      <p class="card-text">Roller Coaster</p>
+                    </div>
+                    <div class="container d-flex justify-content-between">
+                        <i class="bi bi-windows" style="font-size: .7rem;"></i>
+                        <div>
+                             <a class="px-2 py-1 text-white rounded" style="font-size: .8rem; background-color: purple;">-11%</a>
+                             <a class="text-dark" style="font-size: .8rem;" href="">67.79 zl</a>
+                             <a class="text-white px-3 py-1 rounded" style="font-size: .8rem;background-color: rgb(108, 170, 15);"><i class="bi bi-cart-plus"></i></a>
+                        </div>
+                       
+                      </div>
+                  </div>
+              </div>
+              <div class="col col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./gog-assets/tile1.jpg" class="card-img-top" alt="Tile 1">
+                    <div class="card-body" style="line-height: 10px;">
+                      <p class="card-text">Murder by Numbers</p>
+                    </div>
+                    <div class="container d-flex justify-content-between">
+                        <i class="bi bi-windows" style="font-size: .7rem;"></i>
+                        <div>
+                             <a class="px-2 py-1 text-white rounded" style="font-size: .8rem; background-color: purple;">-11%</a>
+                             <a class="text-dark" style="font-size: .8rem;" href="">67.79 zl</a>
+                             <a class="text-white px-3 py-1 rounded" style="font-size: .8rem;background-color: rgb(108, 170, 15);"><i class="bi bi-cart-plus"></i></a>
+                        </div>
+                       
+                      </div>
+                  </div>
+              </div>
+              <div class="col col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./gog-assets/tile (6).jpg" class="card-img-top" alt="Tile 1">
+                    <div class="card-body" style="line-height: 10px;">
+                      <p class="card-text">Disco Elsyum</p>
+                    </div>
+                    <div class="container d-flex justify-content-between">
+                        <i class="bi bi-windows" style="font-size: .7rem;"></i>
+                        <div>
+                             <a class="px-2 py-1 text-white rounded" style="font-size: .8rem; background-color: purple;">-11%</a>
+                             <a class="text-dark" style="font-size: .8rem;" href="">67.79 zl</a>
+                             <a class="text-white px-3 py-1 rounded" style="font-size: .8rem;background-color: rgb(108, 170, 15);"><i class="bi bi-cart-plus"></i></a>
+                        </div>
+                       
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+     
+
     
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
