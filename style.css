@@ -8,6 +8,17 @@ body {
     background-color: #EDEDED;
     overflow: hidden;
 }
+ul li {
+    list-style: none;
+    font-weight: 600;
+}
+.promotion-card {
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 47, 255, 0.5), rgba(12, 28, 247, 0.5)), url('./gog-assets/tile\ \(20\).jpg');
+}
+.promotion-card h4, a, p {
+    color: #fff;
+}
 
 /* Animate */
 .cards .card:hover .card-cart {
