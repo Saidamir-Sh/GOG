@@ -1,0 +1,19 @@
+body {
+    background-color: #D9D9D9;
+}
+.card-cart {
+    display: none;
+}
+.cards .card {
+    background-color: #EDEDED;
+    overflow: hidden;
+}
+
+/* Animate */
+.cards .card:hover .card-cart {
+    display: inline-block;
+}
+.cards .card:hover {
+    transition: 2s ease-in;
+    background-color: #fff;
+}
